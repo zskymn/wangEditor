@@ -1,0 +1,53 @@
+module.exports = {
+  parser: 'babel-eslint',
+  rules: {
+    semi: [1, 'always'],
+    'no-unused-vars': 1,
+    'no-undef': 1,
+    'comma-dangle': [1, 'never'],
+    'comma-style': [1, "last"]
+  },
+  env: {
+    browser: true,
+    node: true,
+    commonjs: true,
+    mocha: true,
+    jasmine: true,
+    jquery: true
+  },
+  globals: {
+    "module": true,
+    "angular": true,
+    "define": true,
+    "require": true,
+    "Chromath": false,
+    "setImmediate": true,
+    "$": true,
+    "inject": true,
+    "_": true,
+    "jQuery": true,
+    "filterXSS": true,
+    "moment": true,
+    "kbn": true,
+    "key": true,
+    "Lexer": true,
+    "Parser": true,
+    "gfunc": true,
+    "SeriesUtils": true,
+    "PanelMeta": true,
+    "TimeSeries": true,
+    "GraphTooltip": true,
+    "TargetParser": true,
+    "showdown": true,
+    "__dirname": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "spyOn": true,
+    "expect": true,
+    "QRCode": true,
+    "echarts": true,
+    "wangEditor": true,
+    "_e": true
+  }
+};

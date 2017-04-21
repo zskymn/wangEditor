@@ -1,10 +1,11 @@
 
 #忽略
-node_modules/grunt/
-node_modules/grunt*/
-node_modules/jquery/
+node_modules/*
+!node_modules/formidable
 issue
 npm-debug.log
+
+uploadfiles/*
 
 # Windows image file caches
 Thumbs.db
